@@ -1,0 +1,45 @@
+.contact {
+    display: flex;
+}
+
+.leftt {
+    flex: 50%;
+}
+
+.rightt {
+    flex: 50%;
+    margin-top: 15%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.rightt h2{
+    text-align: center;
+    color: rgb(127, 115, 115);
+    font-size: 35px;
+}
+.classInput{
+    margin-top: 5%;
+    margin-left: 35%;
+    width: 30%;
+    height: 35px;
+}
+.classEra{
+    margin-top: 5%;
+    margin-left: 35%;
+    width: 30%;
+    height: 140px;
+}
+.classButton{
+    margin-top: 5%;
+    margin-left: 35%;
+    
+    height: 35px;
+
+    width: 100px;
+    background-color: teal;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+
+}

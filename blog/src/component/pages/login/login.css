@@ -1,0 +1,62 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:url("F:\blog\blog\src\component\aserts\blog.jpg");
+    background-size: cover;
+}
+.loginTitle{
+    font-size: 50px;
+}
+.logginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.logginForm >label{
+    margin: 10px 0;
+   font-weight: 700;
+}
+.loginInput{
+    padding: 10px;
+    background-color: rgb(250, 249, 249);
+    border: none;
+
+}
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+}
+.loginButton:disabled{
+    cursor: not-allowed;
+    background-color: #b5a1a1;
+}
+.loginRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background: teal;
+    cursor: pointer;
+    border:none;
+    padding: 10px;
+    color: white;
+    border-radius: 8px;
+}
+.error{
+    font-weight: 700;
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+    width: 300px;
+    background: rgb(244, 241, 241);
+    color: rgb(244, 5, 5);
+    border-radius: 9px;
+    
+}
