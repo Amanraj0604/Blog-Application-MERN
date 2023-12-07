@@ -8,12 +8,7 @@ const CategoryRoute = require("./routes/cetegories");
 const path = require("path");
 
 const app = express();
-app.use(cors(
-    {orign:["https://Blog-Application-MERN.vercal.app"],
-     method:["POST","GET","PUT","DELETE"],
-     credentials:true
-    }
-    ));
+
 require('dotenv').config();
 app.use(express.json()); // Place this middleware before your route handling
 app.use("/images", express.static(path.join(__dirname, "images"))); 
